@@ -73,33 +73,33 @@
         }
 
 
-          // Clearing Red border for Sign Up Inputs
+        // Clearing Red border for Sign Up Inputs
 
-          function ClearingEmail(){
+        function ClearingEmail(){
               document.getElementById('signupemail').setCustomValidity('');
               document.getElementById('signupemail').style.removeProperty('border');
               document.getElementById('signupname1').setCustomValidity('');
               document.getElementById('signupname1').style.removeProperty('border');
               document.getElementById('signupname2').setCustomValidity('');
               document.getElementById('signupname2').style.removeProperty('border');
-          }
+         }
 
-          function ClearingPassword(){
+        function ClearingPassword(){
               document.getElementById('signuppw').setCustomValidity('');
               document.getElementById('signuppw').style.removeProperty('border');
               document.getElementById('signuppw_confirm').setCustomValidity('');
               document.getElementById('signuppw_confirm').style.removeProperty('border');
-          }
+         }
 
-          function ClearingPhone(){
+        function ClearingPhone(){
               document.getElementById('signupphone').setCustomValidity('');
               document.getElementById('signupphone').style.removeProperty('border');
 
-          }
+         }
 
-          function ClearingCheckbox(){
+         function ClearingCheckbox(){
               document.getElementById('checkbx').setCustomValidity('');
-          }
+         }
 
 
 
