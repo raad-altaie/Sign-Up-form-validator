@@ -1,16 +1,18 @@
+//  Sign Up form
+
 function validate() {
     var name1 = document.getElementById('signupname1').value;
     var name2 = document.getElementById('signupname2').value;
     var email = document.getElementById('signupemail').value;
     var password = document.getElementById('signuppw').value;
     var password_confirm = document.getElementById('signuppw_confirm').value;
-    var ienexcode = document.getElementById('ienexcode').value;
+    var phonenumber = document.getElementById('signupphone').value;
     var email_patt = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     var password_patt = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,32}$/;
     var phone_patt = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
     var email_match =email.match(email_patt)
     var password_match =password.match(password_patt)
-    var ienexcode_match =ienexcode.match(password_patt)
+    var phone_match =phonenumber.match(phone_patt)
     
         if  (name1 == "") {  
         document.getElementById('signupname1').setCustomValidity('Please submit your First Name');
@@ -71,7 +73,7 @@ function validate() {
         }
 
 
-      // Clearing Red border for Sign Up
+      // Clearing Red border for Sign Up Inputs
 
       function ClearingEmail(){
           document.getElementById('signupemail').setCustomValidity('');
