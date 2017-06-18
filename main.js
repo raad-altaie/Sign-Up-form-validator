@@ -12,7 +12,7 @@ function validate() {
     var password_match =password.match(password_patt)
     var ienexcode_match =ienexcode.match(password_patt)
     
-    if  (name1 == "") {  
+        if  (name1 == "") {  
         document.getElementById('signupname1').setCustomValidity('Please submit your First Name');
         document.getElementById('signupname1').style.borderColor="red";
             return false;
@@ -30,20 +30,20 @@ function validate() {
         }
     
         else if (email_match == null) { 
-            document.getElementById('signupemail').setCustomValidity('Please submit a vaild Email');
-            document.getElementById('signupemail').style.borderColor="red";
+        document.getElementById('signupemail').setCustomValidity('Please submit a vaild Email');
+        document.getElementById('signupemail').style.borderColor="red";
             return false;                 
         }
     
-       else if (password == "") {  
+        else if (password == "") {  
         document.getElementById('signuppw').setCustomValidity('Please enter a password');
         document.getElementById('signuppw').style.borderColor="red";
             return false;
         }
-         else if (password_match == null) { 
-         document.getElementById('signuppw').setCustomValidity('The password must be between (8 to 16) characters including Uppercase letter, Special character and Alphanumeric characters.');
-         document.getElementById('signuppw').style.borderColor="red";
-         return false;  
+        else if (password_match == null) { 
+        document.getElementById('signuppw').setCustomValidity('The password must be between (8 to 16) characters including Uppercase letter, Special character and Alphanumeric characters.');
+        document.getElementById('signuppw').style.borderColor="red";
+            return false;  
         }
         else if (password_confirm == "") {  
         document.getElementById('signuppw_confirm').setCustomValidity('Please confirm your password');
@@ -56,8 +56,8 @@ function validate() {
             return false;
         }
         else if (phone_match == null) { 
-            document.getElementById('signupphone').setCustomValidity('Please submit a vaild phone number');
-            document.getElementById('signupphone').style.borderColor="red";
+        document.getElementById('signupphone').setCustomValidity('Please submit a vaild phone number');
+        document.getElementById('signupphone').style.borderColor="red";
             return false;                 
          }
         else if (document.getElementById('checkbx').checked == false){
