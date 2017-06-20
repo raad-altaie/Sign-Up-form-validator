@@ -1,4 +1,4 @@
-# Sign Up form validator Javascript
+# Sign Up form Validator - Javascript
 
 Sign Up form validator pure Javascript
 
