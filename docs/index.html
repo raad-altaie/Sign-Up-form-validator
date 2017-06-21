@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script language="JavaScript" type="text/javascript" src="signup.js"></script>
+</head>
+
+    <body>
+
+             <h2 >Sign Up </h2>
+
+      <form>
+
+      <div> <!-- First Name -->
+      <input  placeholder="First Name"  type="text" autocomplete="on" id="signupname1" onclick="ClearingEmail()" oninput="ClearingEmail()"/>
+      </div>
+
+      <div> <!-- Last Name -->
+      <input placeholder="Last Name"  type="text" autocomplete="on" id="signupname2" onclick="ClearingEmail()" oninput="ClearingEmail()"/>
+      </div>
+
+      <div> <!-- email -->
+      <input placeholder="Email"  type="text" autocomplete="on" id="signupemail" onclick="ClearingEmail()" oninput="ClearingEmail()"/>
+      </div>
+
+      <div> <!-- password -->
+      <input  placeholder="Password" id="signuppw" type="password" autocomplete="off" onclick="ClearingPassword()" oninput="ClearingPassword()"/>
+      </div>
+
+      <div> <!-- confrim password -->
+      <input placeholder="Confrim Password" id="signuppw_confirm" type="password" autocomplete="off" onclick="ClearingPassword()" oninput="ClearingPassword()"/>
+      </div>
+
+
+      <div> <!-- Phone number -->
+      <input  placeholder="Phone Number"  type="text" autocomplete="on" id="signupphone" onclick="ClearingPhone()" oninput="ClearingPhone()"/>
+      </div>
+
+
+      <div > <!-- Check Box -->
+      <input type="checkbox" id="checkbx" unchecked="" onclick="ClearingCheckbox()"> I agree on <a target="_blank" href="#">Terms of service</a>.<b/>
+      </div>
+
+
+      <div> <!-- Submit Button -->
+      <button type="submit" onclick="validate()"> Submit </button>
+      </div>
+      
+      </form>
+      
+      
+    </body>
+
+</html>
