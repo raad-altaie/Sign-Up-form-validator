@@ -10,4 +10,4 @@ Sign Up form validator pure Javascript
 * validate U.S. Phone Number [Accepting only these formats (123) 456-7890, 123-456-7890, 123.456.7890, 1234567890]
 * validate agreeing on Terms of Service 
 
-[check it out](https://raad-altaie.github.io/Sign-Up-form-validator-Javascript)
+# [check it out](https://raad-altaie.github.io/Sign-Up-form-validator-Javascript)
