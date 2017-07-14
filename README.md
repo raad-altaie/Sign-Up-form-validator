@@ -1,6 +1,6 @@
 # Sign Up form Validator - Javascript
 
-Sign Up form validator pure Javascript
+Sign Up form validator pure Javascript Vanilla JS
 
 * validate First Name
 * validate Last Name
