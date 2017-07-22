@@ -5,50 +5,58 @@
     <script language="JavaScript" type="text/javascript" src="main.js"></script>
 </head>
 
-    <body>
+<body>
 
-             <h2 >Sign Up </h2>
+    <h2>Sign Up </h2>
 
-      <form>
+    <form>
 
-      <div> <!-- First Name -->
-      <input  placeholder="First Name"  type="text" autocomplete="on" id="signupname1" onclick="ClearingEmail()" oninput="ClearingEmail()"/>
-      </div>
+        <div>
+            <!-- First Name -->
+            <input id="signupname1" placeholder="First Name" type="text" autocomplete="on" />
+        </div>
 
-      <div> <!-- Last Name -->
-      <input placeholder="Last Name"  type="text" autocomplete="on" id="signupname2" onclick="ClearingEmail()" oninput="ClearingEmail()"/>
-      </div>
+        <div>
+            <!-- Last Name -->
+            <input id="signupname2" placeholder="Last Name" type="text" autocomplete="on" />
+        </div>
 
-      <div> <!-- email -->
-      <input placeholder="Email"  type="text" autocomplete="on" id="signupemail" onclick="ClearingEmail()" oninput="ClearingEmail()"/>
-      </div>
+        <div>
+            <!-- email -->
+            <input id="signupemail" placeholder="Email" type="text" autocomplete="on" />
+        </div>
 
-      <div> <!-- password -->
-      <input  placeholder="Password" id="signuppw" type="password" autocomplete="off" onclick="ClearingPassword()" oninput="ClearingPassword()"/>
-      </div>
+        <div>
+            <!-- password -->
+            <input id="signuppw" placeholder="Password" type="password" autocomplete="off" />
+        </div>
 
-      <div> <!-- confrim password -->
-      <input placeholder="Confrim Password" id="signuppw_confirm" type="password" autocomplete="off" onclick="ClearingPassword()" oninput="ClearingPassword()"/>
-      </div>
-
-
-      <div> <!-- Phone number -->
-      <input  placeholder="Phone Number"  type="text" autocomplete="on" id="signupphone" onclick="ClearingPhone()" oninput="ClearingPhone()"/>
-      </div>
-
-
-      <div > <!-- Check Box -->
-      <input type="checkbox" id="checkbx" unchecked="" onclick="ClearingCheckbox()"> I agree on <a target="_blank" href="#">Terms of service</a>.<b/>
-      </div>
+        <div>
+            <!-- confrim password -->
+            <input id="signuppw_confirm" placeholder="Confrim Password" type="password" autocomplete="off" />
+        </div>
 
 
-      <div> <!-- Submit Button -->
-      <button type="submit" onclick="validate()"> Submit </button>
-      </div>
-      
-      </form>
-      
-      
-    </body>
+        <div>
+            <!-- Phone number -->
+            <input id="signupphone" placeholder="Phone Number" type="text" autocomplete="on" />
+        </div>
+
+
+        <div>
+            <!-- Check Box -->
+            <input id="checkBox" type="checkbox" unchecked=""> I agree on <a target="_blank" href="#">Terms of service</a>.<b/>
+        </div>
+
+
+        <div>
+            <!-- Submit Button -->
+            <button id="validate" type="submit"> Submit </button>
+        </div>
+
+    </form>
+
+
+</body>
 
 </html>
